@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>About Us - PLMun Wildlife</title>
+
+  <style>
+    body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: url('https://images.unsplash.com/photo-1502082553048-f009c37129b9') no-repeat center center fixed;
+  background-size: cover;
+}
+html, body {
+  height: 100%;
+}
+
+
+    .members {
+  display: grid;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.member-card {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 15px;
+  background: #f9f9f9;
+}
+
+.member-card h5 {
+  margin: 0;
+  color: #198754;
+}
+
+.member-card p {
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+.email {
+  font-size: 13px;
+  color: gray;
+}
+/* NAVBAR */
+.nav-container {
+   background: linear-gradient(135deg, #166534, #22c55e);
+  color: white;
+  padding: 10px 20px;
+  position: relative;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+/* Hide checkbox */
+#menu-toggle {
+  display: none;
+}
+
+/* Hamburger icon */
+.menu-icon {
+  font-size: 24px;
+  cursor: pointer;
+  position: absolute;
+  right: 20px;
+  top: 10px;
+}
+
+/* Menu */
+.nav-menu {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 0;
+  display: none;
+}
+
+.nav-menu li {
+  margin: 10px 0;
+}
+
+.nav-menu a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Toggle menu */
+#menu-toggle:checked + .menu-icon + .nav-menu {
+  display: block;
+}
+
+@media (min-width: 768px) {
+  .menu-icon {
+    display: none;
+  }
+
+  .nav-menu {
+    display: flex;
+    gap: 20px;
+    justify-content: flex-end;
+    margin: 0;
+  }
+
+  .nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+    .overlay {
+  background: rgba(255,255,255,0.9);
+  flex: 1;
+  padding: 80px 40px 40px;
+}
+
+    .container {
+      max-width: 700px;
+      margin: auto;
+      background: white;
+      padding: 25px;
+      border-radius: 12px;
+      border: 2px solid #333;
+    }
+
+    h2 {
+      text-align: center;
+      color: #198754;
+    }
+
+    h4 {
+      color: #198754;
+      margin-top: 20px;
+    }
+
+    p {
+      font-size: 14px;
+      text-align: justify;
+      line-height: 1.6;
+    }
+
+    ul {
+      font-size: 14px;
+    }
+
+    hr {
+      margin: 15px 0;
+    }
+
+
+
+
+    footer {
+  background: linear-gradient(135deg, #166534, #22c55e);
+  color: white;
+  text-align: center;
+  padding: 15px;
+  font-size: 14px;
+  margin-top: auto;
+}
+
+  </style>
+</head>
+
+<body>
+
+    <div class="nav-container">
+  <img src="images/logo.png" width="200">
+  <div class="logo">PLMun Wildlife Conservation Hub</div>
+
+  <input type="checkbox" id="menu-toggle">
+
+  <label for="menu-toggle" class="menu-icon">
+    ☰
+  </label>
+
+  <ul class="nav-menu">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="gallery.html">Gallery</a></li>
+    <li><a href="contact.html">Contact</a></li>
+    <li><a href="Aboutus.html">About us</a></li>
+  </ul>
+</div>
+
+<div class="overlay">
+  <div class="container">
+
+    <h2>About Us</h2>
+
+    <hr>
+
+    <!-- OVERVIEW -->
+    <h4>Overview</h4>
+    <p>
+      This website is created to raise awareness about endangered wildlife in the Philippines. 
+      It highlights different species and encourages people to help protect our environment.
+    </p>
+
+    <!-- ABOUT US -->
+    <h4>About Us</h4>
+    <p>
+      We are students from PLMun who developed this project as part of our academic requirement. 
+      Our goal is to educate others and promote wildlife conservation through simple and accessible information.
+    </p>
+
+    <!-- MISSION -->
+    <h4>Our Mission</h4>
+    <p>
+      Our mission is to spread awareness, inspire action, and encourage people to take part 
+      in protecting endangered species and preserving biodiversity.
+    </p>
+
+    <!-- MEMBERS -->
+       
+    
+<h4>Our Members</h4>
+
+<div class="members">
+
+  <div class="member-card">
+    <h5>Jaramiel, Kurt Damiel L. </h5>
+    <p>Lead Developer</p>
+    <p class="email">IE: jaramielkurtdamiel_bsit@plmun.edu.ph</p>
+  </div>
+
+  <div class="member-card">
+    <h5>Chan, Jeiruss Benjamin D. </h5>
+    <p>Research & Content Designer</p>
+    <p class="email">IE: chanjeirussbenjamin_bsit@plmun.edu.ph</p>
+  </div>
+
+  <div class="member-card">
+    <h5>Baldos, Yssabela Amparo T.</h5>
+    <p>Research Assistant</p>
+    <p class="email">IE: baldosyssabelaamparo_bsit@plmun.edu.ph</p>
+  </div>
+
+  <div class="member-card">
+    <h5>Paling, Meira Joy G.</h5>
+    <p>Content Writer</p>
+    <p class="email">IE: palingmeirajoy_bsit@plmun.edu.ph</p>
+  </div>
+
+  <div class="member-card">
+    <h5>Delas Alas, Juan Carlos R.</h5>
+    <p>Assistant</p>
+    <p class="email">IE: delasalasjuancarlos_bsit@plmun.edu.ph</p>
+  </div>
+
+</div>
+
+  </div>
+</div>
+
+
+
+ <footer>
+          <p>© 2026 PLMun Wildlife Conservation Hub</p>
+          <p>All Rights Reserved</p>
+</footer>
+
+
+</body>
+</html>
